@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+body{
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+	margin-top: 15px;
+	margin-left: 25px;
+	line-height: 1.75em;
+	letter-spacing:0.5px;
+	font-size:50px;
+	text-align:center;
+}
+
+.penbatangfont{
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+	font-weight: normal;
+	border:none;
+	line-height: 1.4em;
+	letter-spacing:0.5px;
+	font-size: 50px;
+
+}
+
+
+
+textarea
+{
+    outline-style: none;
+    width:100%;
+    height: 100%;
+}
+
+::selection {
+   background: black;
+   color: #fff;
+}
+
