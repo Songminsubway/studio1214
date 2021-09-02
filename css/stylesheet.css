@@ -3,7 +3,7 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 html {
-    position: relative;
+    position: absolute;
     min-height: 100%;
     margin: 0;
 }
