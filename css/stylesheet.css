@@ -20,7 +20,7 @@ body {
 
 .footer {
 
-    position: absolute;
+    position: fixed;
 
     left: 0;
 
