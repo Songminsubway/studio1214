@@ -2,10 +2,38 @@
 
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
-footer{ position:fixed; 
-  left:0px; 
-  bottom:0px; 
-  height:60px; 
-  width:100%; 
-  background:grey; 
-  color: white; }
+html {
+
+    position: relative;
+
+    min-height: 100%;
+
+    margin: 0;
+  
+}
+
+body {
+
+    min-height: 100%;
+
+}
+
+.footer {
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+	padding: 15px 0;
+
+	text-align: center;
+
+	color: #000000;
+
+	background: #e2e2e2;
+
+}
