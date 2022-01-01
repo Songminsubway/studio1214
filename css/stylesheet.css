@@ -12,6 +12,7 @@ body {
     min-height: 100%;
 }
 
+
 footer {
 	position: fixed;
 	left: 0;
@@ -28,6 +29,28 @@ div#intro {
 	margin-top: 0px;
 }
 
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex;
+    justify-content: flex-start;
+}
+
+header li {
+    
+}
+
+.container{
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-bottom:40px;
+}
+
+.basictext{
+    width: 400px;
+}
+
 .boxl{
 	float: left;
 	width: 300px;
@@ -37,4 +60,8 @@ div#intro {
 	float: right;
 	width: 300px;
 	text-align:right;
+}
+.oneLine h2,
+.oneLine h3 {
+    display: inline;
 }
